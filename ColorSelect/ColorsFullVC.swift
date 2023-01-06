@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorsFullVC.swift
 //  ColorSelect
 //
 //  Created by Ислам Пулатов on 1/4/23.
@@ -7,13 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorsFullVC: UIViewController {
+    
+    var color : UIColor?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = color ?? .systemBackground
     }
+    
 
 
 }
-
